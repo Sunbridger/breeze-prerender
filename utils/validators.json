@@ -1,0 +1,13 @@
+{
+    "ENTRY": "string",
+    "MODULE_NAME": "string",
+    "IGNORE_PATH": "string",
+    "WHITE_PATH": "string",
+    "IGNORE_PARAMS": "string",
+    "IS_SUBPROJECT": "number",
+    "NOT_FOUND_PATH": "string",
+    "SCREENSHOTFILENAME": "string",
+    "SCREENSHOTURL": "string",
+    "SCREENSHOTWIDTH": "number",
+    "TYPE": "string"
+}

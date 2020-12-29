@@ -1,0 +1,31 @@
+{
+  "name": "breeze-prerender",
+  "version": "1.0.0",
+  "description": "spa prerender for seo",
+  "main": "start.js",
+  "scripts": {
+    "start": "export NODE_ENV=development && node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node ./start.js --ENTRY https://brace.tangeche.com --MODULE_NAME finance-brace-app --IGNORE_PATH [] --WHITE_PATH [] --IGNORE_PARAMS []"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.souche-inc.com/middle-end/breeze-prerender"
+  },
+  "keywords": [
+    "breeze",
+    "seo",
+    "prerender"
+  ],
+  "author": "chenziyu@souche.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "mz": "^2.7.0",
+    "puppeteer": "^1.14.0",
+    "randomstring": "^1.1.5",
+    "shelljs": "^0.8.3",
+    "yargs": "^13.2.2"
+  }
+}
